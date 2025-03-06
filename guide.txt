@@ -1,0 +1,28 @@
+A high-performance bot that automatically detects and trades new Solana memecoins from Telegram channels, specifically targeting tokens on Raydium and pump.fun.
+Features
+
+Real-time Telegram Monitoring: Scans multiple channels simultaneously for new token addresses
+Smart Filtering: Validates tokens against customizable criteria (liquidity, market cap, platform)
+Fast Execution: Executes trades within milliseconds of token detection
+MEV Protection: Integrates with Jito for bundle transactions to prevent frontrunning
+Automatic Trading: Configurable take-profit and stop-loss mechanisms
+Priority Channels: Assign higher importance to specific channels
+Transaction Logging: Detailed records of all buys and sells
+Customizable Parameters: Adjust slippage, buy amounts, profit targets, and more
+BlackList/WhiteList: Filter tokens or creator addresses
+
+Setup
+Install dependencies: npm install
+Configure your .env file with:
+Solana wallet private key
+Telegram bot token
+Helius/Shyft API keys
+Channel IDs to monitor
+Trading parameters
+
+
+Build the project: npm run build
+Start the bot: npm run start
+
+Configuration
+See .env for full configuration options.
